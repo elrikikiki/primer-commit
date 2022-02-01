@@ -1,0 +1,498 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+
+body {
+    margin: 4px;
+    height: 130vh;
+    background-color: rgb(219, 219, 219);
+    
+}
+.gridAreas {
+    display: grid;
+    grid-template-areas: 
+    "menu encabezado encabezado" 
+    "menu section lateral"
+    "menu servicios lateral"
+    "pie pie pie";
+    grid-template-columns:13% auto 20%  ;
+    grid-template-rows:1fr 2fr 2fr 1fr  ;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+
+.border{ border: 1px solid black; 
+    background-color: black;
+
+}
+.borderGemelo {border: 1px solid black; 
+    background-color: black;
+
+}
+header {
+    grid-area: encabezado;
+}
+nav {
+    grid-area: menu;
+}
+aside {
+    grid-area: lateral; 
+}
+#productos { 
+    grid-area: section;
+
+}
+#servicios {
+    grid-area: servicios;
+
+}
+footer {
+    grid-area: pie;
+}
+
+.cabeza {
+    background-color: black;  
+}
+
+h1 img {
+    padding: 10px;
+    background-color:rgb(219, 219, 219) ;
+    width: 20%;
+    height: 15%;
+
+
+}
+header {
+    border: 1px solid black;
+    background-image: url(https://www.theagilityeffect.com/app/uploads/2019/03/00_VINCI-ICONOGRAPHIE-GettyImages-890132412_1280x680.jpg);
+    
+}
+header h1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center; 
+    
+    padding: 10px;
+}
+nav h2{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    background-color: white ;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+.listasIndex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: rgb(219, 219, 219);
+    margin-bottom: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 2px;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+nav img {
+    margin-top: 40px;
+    height: 50vh;
+}
+
+.articuloVideo {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    background-color:rgb(219, 219, 219);
+    
+    
+}
+.activaciónFlex {
+    display: flex;
+}
+article h2 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding-top: 4px;
+}
+.parrafoIndex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color:rgb(219, 219, 219);
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.video {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 4%;
+}
+.articleDos {
+    
+    background-color:rgb(219, 219, 219);
+}
+article h3 {
+    padding-top: 2px;
+}
+.padding {
+    padding-bottom: 2px;
+    padding-left: 3px;
+    padding-bottom: 5px;
+}
+article div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end; 
+    color: rgb(219, 219, 219);
+    background-color: black;
+    padding-top: 1%;
+}
+.paddingBottom {
+    padding-bottom: 6px;
+}
+
+.letraBlanca {
+    color:rgb(219, 219, 219) ;
+    text-decoration: underline;
+}
+.letraBlancaDos {
+    color:rgb(219, 219, 219) ;
+    text-decoration: none;
+}
+.cursiva {
+    font-style: italic;
+}
+aside article {
+    background-color: rgb(219, 219, 219);
+}
+footer {
+    border: 1px solid white;
+    background-color: rgb(219, 219, 219);
+}
+aside article h2 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-bottom: 6%;
+}
+aside article h3 {
+    padding-left: 1.4%;
+}
+.tamañoImagen {
+    width: 90%;
+    height: 40vh;
+    
+}
+.imagenArqui {
+    margin-top: 30%;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    background-color: white;
+}
+footer div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    background-color: black;
+    color: rgb(219, 219, 219);
+    height: 22% ; 
+}
+.marginTop {
+    margin-top: 7px;
+    padding-top: 3px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NOSOTROS */
+
+
+
+
+
+.gridAreasNosotros {
+    display: grid;
+    grid-template-areas: 
+    "menu cabeza cabeza" 
+    "edificios edificios edificios"
+    "casas casas casas"
+    "footer footer footer";
+    grid-template-columns:13% auto 20%  ;
+    grid-template-rows:1fr 2fr 2fr 1fr  ;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+.bodyLargo {
+    height: 150vh;
+}
+.borderDos{
+    border: 1px solid black; 
+
+}
+#header {
+    grid-area: cabeza;
+    
+}
+#nav {
+    grid-area: menu;
+
+}
+
+#edificios { 
+    grid-area: edificios;
+
+}
+#casas {
+    grid-area: casas;
+
+}
+#footer {
+    grid-area: footer;
+}
+.fondoNegro {
+    background-color: black;
+    color: rgb(219, 219, 219);
+}
+.nosotros { 
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    background-color: black;
+    color: whitesmoke;
+    padding: 8px 8px 8px 25px;
+    
+    
+    border-radius: 5px;
+    padding: 10px;
+}
+.mision {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+
+    margin-bottom: 7px;
+}
+.articleUnoNosotros {
+
+    padding-left: 7px;
+    margin-left: 10%;
+    
+    background-color: black;
+    color: rgb(219, 219, 219);
+    width: 80%;
+    height: 11vh;
+    border-radius: 15px;
+}
+.articleDosNosotros { 
+    margin-left: 10%;
+    margin-bottom: 2%;
+    padding-left: 7px;
+    background-color: black;
+    color: rgb(219, 219, 219);
+    width: 80%;
+    height: 30vh;
+    border-radius: 15px;
+
+
+}
+.imagenOficina {
+    margin: 10%;
+    width: 80%;
+    height: 30% ;
+    
+}
+.listita {
+    list-style-type: square ;
+}
+
+.articleTresNosotros {
+    
+    
+    padding-left: 7px ;
+    background-color: black;
+    color: rgb(219, 219, 219);
+    width: 95%;
+    height: 30vh;
+    border-radius: 15px;
+
+}
+
+
+.gridAreaArticle 
+{ display: grid;
+    grid-template-areas: 
+    "nosotros nosotros nosotros"
+    "mision valores foto"
+    "objetivos valores foto";
+    grid-template-columns: 1fr  1fr 1fr ;
+    grid-template-rows:1fr 2fr 3fr ;
+
+}
+
+
+#nosotros {
+    grid-area: nosotros;
+
+}
+.paddingListaNosotros {
+    padding-bottom: 6px;
+}
+#mision {
+    grid-area: mision;
+
+}
+.negrita {
+    font-weight: bold;
+}
+#valores {
+grid-area: valores;
+}
+#foto {
+grid-area: foto;
+}
+#objetivos {
+    grid-area: objetivos;
+
+}
+
+.GridAreasNosotrosDos {
+    display: grid;
+    grid-template-areas: 
+    "maquinarias maquinarias maquinarias"
+    "videoMaquinaUno videoMaquinaDos videoMaquinaTres";
+
+}
+#maquinarias {
+    grid-area: maquinarias;
+}
+#videoMaquinaUno {
+    grid-area: videoMaquinaUno;
+}
+#videoMaquinaDos {
+    grid-area: videoMaquinaDos;
+}
+#videoMaquinaTres {
+    grid-area: videoMaquinaTres;
+}
+
+.maquinarias {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    background-color: black;
+    color: rgb(219, 219, 219);
+    padding-top: 8px;
+    padding-bottom: 3px;
+}
+.marginAbajoMaquinaria {
+    margin-bottom: 10px; 
+}
+
+
+/*RESPONSIVE*/
+/* DESKTOP */
+@media (min-width: 1024px) {
+    body {
+        margin: 4px;
+        height: 130vh;
+        background-color: rgb(219, 219, 219);
+        
+    }
+    
+}
+/* TABLET */
+@media (min-width: 481px) and (max-width: 1023px) {
+    .gridAreas {
+        display: grid;
+        grid-template-areas: 
+        "menu encabezado" 
+        "menu section"
+        "servicios lateral"
+        "servicios lateral"
+        "servicios lateral"
+        "servicios lateral"
+        "servicios lateral"
+        "servicios lateral"
+        "pie pie";
+        grid-template-columns:30% 70%  ;
+        grid-template-rows:2fr 2fr 3fr 3fr 3fr 3fr 3fr 3fr 1fr ;
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+    }
+    body {
+        height: 140vh;
+    }
+    .border{ border: 1px solid black; 
+        background-color: black;
+    
+    }
+    .articleDos {
+    
+        background-color:rgb(219, 219, 219);
+        
+    }
+    article h3 {
+        padding-top: 2px;
+    }
+    .padding {
+        padding-bottom: 2px;
+        padding-left: 3px;
+        padding-bottom: 5px;
+    }
+    .tamañoImagen {
+        width: 70%;
+        height: 30%;
+        
+    }
+    .imagenArqui {
+        margin-top: 150px;
+        
+      
+    }
+
+    article h2 {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        padding-top: 0px;
+    }
+    .borderGemelo {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        border: 1px solid black; 
+        background-color: black;
+
+    
+    }
+}
+    
